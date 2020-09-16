@@ -1,0 +1,2011 @@
+Loading tensorflow/1.12
+  Loading requirement: cuda/10.0 cudnn/7.4
+2019-11-16 12:33:50.689544: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-11-16 12:33:50.689645: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-11-16 12:34:00.639593: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-16 12:34:00.639665: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-11-16 12:34:00.639684: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-11-16 12:34:00.639891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10421 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+Image_batch-size: 128
+Train size (2100, 154587) (2100, 12)
+Test size (900, 154587) (900, 12)
+(?, 15, 15, 256) 57600
+Time taken for setup: 348.8784565925598
+Image_loops: 16
+Loop numper: 16
+Epoch:   0, Training Loss:45238.98626709, Training Accuracy:  9.7%, Test loss: 3329.01147461,Test accuracy:  20.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  10, Training Loss:182.02112865, Training Accuracy: 50.6%, Test loss: 46.78941127,Test accuracy:  70.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  20, Training Loss:65.94648027, Training Accuracy: 71.7%, Test loss: 37.90582766,Test accuracy:  78.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  30, Training Loss:35.94220257, Training Accuracy: 80.9%, Test loss: 34.09853745,Test accuracy:  79.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  40, Training Loss:22.99312609, Training Accuracy: 86.3%, Test loss: 30.20111029,Test accuracy:  81.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  50, Training Loss:15.97622222, Training Accuracy: 88.3%, Test loss: 29.50141416,Test accuracy:  82.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  60, Training Loss:11.67066932, Training Accuracy: 91.5%, Test loss: 31.29137611,Test accuracy:  83.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  70, Training Loss:7.84677953, Training Accuracy: 93.6%, Test loss: 26.66649083,Test accuracy:  82.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  80, Training Loss:4.78987101, Training Accuracy: 95.3%, Test loss: 33.48226193,Test accuracy:  83.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch:  90, Training Loss:6.06302764, Training Accuracy: 94.8%, Test loss: 33.10858835,Test accuracy:  83.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 100, Training Loss:5.63563459, Training Accuracy: 95.3%, Test loss: 24.99250916,Test accuracy:  84.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 110, Training Loss:5.37581217, Training Accuracy: 95.5%, Test loss: 31.60068812,Test accuracy:  85.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 120, Training Loss:4.71066441, Training Accuracy: 96.1%, Test loss: 32.87072890,Test accuracy:  81.9%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 130, Training Loss:6.27934922, Training Accuracy: 95.3%, Test loss: 40.95386287,Test accuracy:  85.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 140, Training Loss:4.28987703, Training Accuracy: 96.5%, Test loss: 31.38959966,Test accuracy:  86.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 150, Training Loss:4.24827360, Training Accuracy: 96.1%, Test loss: 32.95299803,Test accuracy:  84.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 160, Training Loss:2.79375508, Training Accuracy: 97.5%, Test loss: 38.86222594,Test accuracy:  84.9%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 170, Training Loss:2.26478457, Training Accuracy: 97.7%, Test loss: 38.02290344,Test accuracy:  85.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 180, Training Loss:2.63680702, Training Accuracy: 97.9%, Test loss: 51.74198532,Test accuracy:  85.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 190, Training Loss:3.89224597, Training Accuracy: 96.8%, Test loss: 38.34889521,Test accuracy:  86.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 200, Training Loss:2.63181038, Training Accuracy: 97.5%, Test loss: 40.36905125,Test accuracy:  85.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 210, Training Loss:4.57529294, Training Accuracy: 96.6%, Test loss: 44.84205219,Test accuracy:  86.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 220, Training Loss:4.87903050, Training Accuracy: 96.8%, Test loss: 47.27485166,Test accuracy:  85.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 230, Training Loss:7.09318654, Training Accuracy: 96.4%, Test loss: 43.53433555,Test accuracy:  86.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 240, Training Loss:1.71362429, Training Accuracy: 98.4%, Test loss: 51.00413895,Test accuracy:  85.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 250, Training Loss:3.06254319, Training Accuracy: 98.3%, Test loss: 36.42906271,Test accuracy:  85.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 260, Training Loss:3.56088504, Training Accuracy: 97.5%, Test loss: 51.74220494,Test accuracy:  84.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 270, Training Loss:4.35097336, Training Accuracy: 97.5%, Test loss: 37.74621800,Test accuracy:  86.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 280, Training Loss:6.42567974, Training Accuracy: 96.8%, Test loss: 45.72859246,Test accuracy:  85.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 290, Training Loss:4.57656737, Training Accuracy: 96.2%, Test loss: 42.03427478,Test accuracy:  85.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 300, Training Loss:4.81746495, Training Accuracy: 97.3%, Test loss: 44.59385136,Test accuracy:  87.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 310, Training Loss:3.24363189, Training Accuracy: 97.9%, Test loss: 43.42494447,Test accuracy:  86.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 320, Training Loss:4.13165813, Training Accuracy: 97.2%, Test loss: 59.20769610,Test accuracy:  84.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 330, Training Loss:3.42572609, Training Accuracy: 97.1%, Test loss: 47.11769540,Test accuracy:  87.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 340, Training Loss:1.84504478, Training Accuracy: 98.6%, Test loss: 44.88121414,Test accuracy:  86.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 350, Training Loss:1.21723659, Training Accuracy: 98.8%, Test loss: 45.87683078,Test accuracy:  87.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 360, Training Loss:2.48572795, Training Accuracy: 98.7%, Test loss: 45.69558607,Test accuracy:  87.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 370, Training Loss:1.98364572, Training Accuracy: 98.6%, Test loss: 46.81114578,Test accuracy:  87.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 380, Training Loss:3.72211438, Training Accuracy: 97.5%, Test loss: 39.13756180,Test accuracy:  87.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 390, Training Loss:2.62917741, Training Accuracy: 98.7%, Test loss: 55.28842109,Test accuracy:  87.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 400, Training Loss:0.99587564, Training Accuracy: 99.3%, Test loss: 44.37226568,Test accuracy:  87.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 410, Training Loss:1.17928265, Training Accuracy: 99.1%, Test loss: 51.58565848,Test accuracy:  86.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 420, Training Loss:1.50366149, Training Accuracy: 99.0%, Test loss: 47.36610086,Test accuracy:  89.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 430, Training Loss:1.30671905, Training Accuracy: 98.9%, Test loss: 58.32099370,Test accuracy:  87.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 440, Training Loss:1.67815402, Training Accuracy: 98.9%, Test loss: 62.93120629,Test accuracy:  87.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 450, Training Loss:1.50542889, Training Accuracy: 99.0%, Test loss: 54.86704145,Test accuracy:  88.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 460, Training Loss:1.80937072, Training Accuracy: 98.7%, Test loss: 41.19498144,Test accuracy:  89.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 470, Training Loss:1.46283774, Training Accuracy: 99.1%, Test loss: 47.92460605,Test accuracy:  87.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 480, Training Loss:1.50288866, Training Accuracy: 99.0%, Test loss: 40.89843151,Test accuracy:  89.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 490, Training Loss:0.72066593, Training Accuracy: 99.3%, Test loss: 43.75930187,Test accuracy:  88.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 500, Training Loss:1.83298810, Training Accuracy: 98.7%, Test loss: 46.83284651,Test accuracy:  89.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 510, Training Loss:0.75113430, Training Accuracy: 99.3%, Test loss: 52.99866159,Test accuracy:  86.9%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 520, Training Loss:1.54308907, Training Accuracy: 98.9%, Test loss: 55.42736816,Test accuracy:  87.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 530, Training Loss:1.37961394, Training Accuracy: 99.1%, Test loss: 42.42521695,Test accuracy:  88.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 540, Training Loss:0.45480667, Training Accuracy: 99.6%, Test loss: 51.07424763,Test accuracy:  88.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 550, Training Loss:2.54029902, Training Accuracy: 98.6%, Test loss: 39.66325651,Test accuracy:  87.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 560, Training Loss:3.20420680, Training Accuracy: 98.3%, Test loss: 50.23715101,Test accuracy:  89.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 570, Training Loss:0.45820759, Training Accuracy: 99.5%, Test loss: 49.38158417,Test accuracy:  88.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 580, Training Loss:2.24964140, Training Accuracy: 98.7%, Test loss: 38.60490935,Test accuracy:  89.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 590, Training Loss:2.55451545, Training Accuracy: 98.5%, Test loss: 45.14677238,Test accuracy:  87.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 600, Training Loss:2.62673183, Training Accuracy: 98.3%, Test loss: 44.19933919,Test accuracy:  86.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 610, Training Loss:0.58695319, Training Accuracy: 99.2%, Test loss: 56.10520826,Test accuracy:  87.9%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 620, Training Loss:0.17529292, Training Accuracy: 99.8%, Test loss: 43.23157992,Test accuracy:  88.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 630, Training Loss:0.12439236, Training Accuracy: 99.9%, Test loss: 47.03489358,Test accuracy:  89.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 640, Training Loss:0.76832975, Training Accuracy: 99.4%, Test loss: 48.43427522,Test accuracy:  88.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 650, Training Loss:1.97790548, Training Accuracy: 99.1%, Test loss: 52.50773294,Test accuracy:  87.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 660, Training Loss:2.11566358, Training Accuracy: 99.1%, Test loss: 54.30167007,Test accuracy:  87.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 670, Training Loss:0.47730184, Training Accuracy: 99.2%, Test loss: 59.89997183,Test accuracy:  88.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 680, Training Loss:1.36981796, Training Accuracy: 99.1%, Test loss: 53.59520422,Test accuracy:  87.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 690, Training Loss:1.36548589, Training Accuracy: 99.2%, Test loss: 39.92767007,Test accuracy:  89.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 700, Training Loss:1.49012321, Training Accuracy: 98.9%, Test loss: 44.28432628,Test accuracy:  89.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 710, Training Loss:0.56124559, Training Accuracy: 99.7%, Test loss: 49.00873811,Test accuracy:  90.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 720, Training Loss:0.68206072, Training Accuracy: 99.4%, Test loss: 53.30926432,Test accuracy:  89.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 730, Training Loss:1.85748446, Training Accuracy: 98.7%, Test loss: 60.81992994,Test accuracy:  88.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 740, Training Loss:0.98688462, Training Accuracy: 99.0%, Test loss: 51.82069152,Test accuracy:  88.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 750, Training Loss:0.86675269, Training Accuracy: 99.4%, Test loss: 54.88753019,Test accuracy:  88.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 760, Training Loss:1.23882478, Training Accuracy: 99.2%, Test loss: 50.47062765,Test accuracy:  90.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 770, Training Loss:2.23748013, Training Accuracy: 99.0%, Test loss: 40.95927320,Test accuracy:  89.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 780, Training Loss:0.95801606, Training Accuracy: 99.1%, Test loss: 45.03393446,Test accuracy:  88.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 790, Training Loss:0.51381716, Training Accuracy: 99.2%, Test loss: 42.28182820,Test accuracy:  89.7%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 800, Training Loss:1.01395057, Training Accuracy: 99.2%, Test loss: 50.77635275,Test accuracy:  89.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 810, Training Loss:1.17794324, Training Accuracy: 99.3%, Test loss: 46.78586687,Test accuracy:  89.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 820, Training Loss:0.61089623, Training Accuracy: 99.6%, Test loss: 43.73612867,Test accuracy:  90.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 830, Training Loss:0.72754977, Training Accuracy: 99.4%, Test loss: 40.53862354,Test accuracy:  89.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 162019-11-16 14:29:29.127449: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-11-16 14:29:29.127568: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-16 14:29:29.127588: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-11-16 14:29:29.127600: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-11-16 14:29:29.127779: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10421 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+
+Epoch: 840, Training Loss:0.72948013, Training Accuracy: 99.6%, Test loss: 55.40663419,Test accuracy:  90.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 850, Training Loss:0.57536900, Training Accuracy: 99.6%, Test loss: 49.46812657,Test accuracy:  90.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 860, Training Loss:0.29774874, Training Accuracy: 99.8%, Test loss: 39.85696711,Test accuracy:  90.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 870, Training Loss:0.44141413, Training Accuracy: 99.9%, Test loss: 42.32869584,Test accuracy:  88.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 880, Training Loss:0.59209149, Training Accuracy: 99.5%, Test loss: 67.39064189,Test accuracy:  88.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 890, Training Loss:0.00000000, Training Accuracy:100.0%, Test loss: 38.83360345,Test accuracy:  90.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Image_loops: 16
+Loop numper: 16
+Epoch: 900, Training Loss:0.13884154, Training Accuracy: 99.9%, Test loss: 58.18211583,Test accuracy:  89.3%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_3/model_checkpoint/msh_tanzania_bal-3-250_20/model_msh_tanzania_bal-3-250_20.ckpt
+Optimisation done. Accuracy attained on test data:90.85
+Time taken for training 900 epochs: 7289.127196311951
+Time taken for setup only: 348.8784565925598
+Time taken for training  900 epochs ONLY: 6940.248739719391
+Time taken for identifying only: 10.206098318099976
+Time taken for the whole process 7299.333294630051

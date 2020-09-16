@@ -1,0 +1,587 @@
+Loading tensorflow/1.12
+  Loading requirement: cuda/10.0 cudnn/7.4
+2019-11-12 17:19:18.791459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:82:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-11-12 17:19:18.791556: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-11-12 17:19:19.516070: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-12 17:19:19.516170: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-11-12 17:19:19.516186: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-11-12 17:19:19.516401: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10421 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:82:00.0, compute capability: 6.1)
+Image_batch-size: 32
+Train size (420, 154587) (420, 12)
+Test size (180, 154587) (180, 12)
+(?, 15, 15, 256) 57600
+Time taken for setup: 24.133718252182007
+Image_loops: 13
+Loop numper: 13
+Epoch:   0, Training Loss:68444.83383413, Training Accuracy:  8.7%, Test loss: 6838.50771484,Test accuracy:   7.5%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  10, Training Loss:454.55972055, Training Accuracy: 29.6%, Test loss: 141.08935242,Test accuracy:  40.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  20, Training Loss:178.85220220, Training Accuracy: 45.9%, Test loss: 72.91588821,Test accuracy:  49.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  30, Training Loss:71.33616462, Training Accuracy: 61.1%, Test loss: 48.96876755,Test accuracy:  63.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  40, Training Loss:35.97221507, Training Accuracy: 70.9%, Test loss: 40.57685204,Test accuracy:  68.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  50, Training Loss:26.65034734, Training Accuracy: 74.8%, Test loss: 34.21730270,Test accuracy:  69.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  60, Training Loss:20.97095944, Training Accuracy: 76.9%, Test loss: 38.87636108,Test accuracy:  64.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  70, Training Loss:14.56432225, Training Accuracy: 83.7%, Test loss: 44.10992508,Test accuracy:  69.4%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  80, Training Loss:9.37822578, Training Accuracy: 91.6%, Test loss: 37.56549606,Test accuracy:  73.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch:  90, Training Loss:5.84904002, Training Accuracy: 92.1%, Test loss: 44.09701920,Test accuracy:  71.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 100, Training Loss:9.10549775, Training Accuracy: 90.1%, Test loss: 40.24319992,Test accuracy:  71.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 110, Training Loss:4.26480274, Training Accuracy: 94.0%, Test loss: 41.95472832,Test accuracy:  75.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 120, Training Loss:2.19210920, Training Accuracy: 95.9%, Test loss: 33.25128441,Test accuracy:  75.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 130, Training Loss:4.18365349, Training Accuracy: 93.5%, Test loss: 44.43248425,Test accuracy:  78.1%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 132019-11-12 17:33:04.374617: W tensorflow/core/framework/op_kernel.cc:1273] OP_REQUIRES failed at save_restore_v2_ops.cc:134 : Unknown: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt.data-00000-of-00001.tempstate7553868647286583022; Input/output error
+
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 140, Training Loss:3.39382407, Training Accuracy: 94.5%, Test loss: 42.28779259,Test accuracy:  78.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 150, Training Loss:8.04310244, Training Accuracy: 91.1%, Test loss: 42.11758537,Test accuracy:  75.6%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 160, Training Loss:5.91833959, Training Accuracy: 94.0%, Test loss: 42.87262154,Test accuracy:  76.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 170, Training Loss:4.45311970, Training Accuracy: 95.0%, Test loss: 45.76914787,Test accuracy:  75.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 180, Training Loss:8.29988967, Training Accuracy: 93.3%, Test loss: 42.12311516,Test accuracy:  75.0%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 190, Training Loss:8.33924828, Training Accuracy: 92.3%, Test loss: 48.30244370,Test accuracy:  73.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 200, Training Loss:3.42701181, Training Accuracy: 95.4%, Test loss: 59.42762299,Test accuracy:  71.2%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 210, Training Loss:3.84750011, Training Accuracy: 95.4%, Test loss: 59.17360306,Test accuracy:  78.8%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 220, Training Loss:13.44920188, Training Accuracy: 88.0%, Test loss: 64.12521706,Test accuracy:  71.9%
+Model saved in file: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Image_loops: 13
+Loop numper: 13
+Epoch: 230, Training Loss:9.67557621, Training Accuracy: 91.1%, Test loss: 51.22355614,Test accuracy:  73.1%
+Traceback (most recent call last):
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.UnknownError: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt.data-00000-of-00001.tempstate7553868647286583022; Input/output error
+	 [[{{node save/SaveV2}} = SaveV2[dtypes=[DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, conv_B1/_23, conv_B2/_25, conv_B3/_27, conv_B4/_29, conv_B5/_31, conv_W1/_33, conv_W2/_35, conv_W3/_37, conv_W4/_39, conv_W5/_41, fc_B1/_43, fc_B2/_45, fc_B3/_47, fc_W1/_49, fc_W2/_51, fc_W3/_53)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    train.train(**d_params)
+  File "/afs/crc.nd.edu/user/p/pmoreira/Private/pads_ensembled_test_v3/src/train.py", line 464, in train
+    save_path = saver.save(sess, model_checkpoint)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1441, in save
+    {self.saver_def.filename_tensor_name: checkpoint_file})
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.UnknownError: /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt.data-00000-of-00001.tempstate7553868647286583022; Input/output error
+	 [[node save/SaveV2 (defined at /afs/crc.nd.edu/user/p/pmoreira/Private/pads_ensembled_test_v3/src/train.py:346)  = SaveV2[dtypes=[DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, conv_B1/_23, conv_B2/_25, conv_B3/_27, conv_B4/_29, conv_B5/_31, conv_W1/_33, conv_W2/_35, conv_W3/_37, conv_W4/_39, conv_W5/_41, fc_B1/_43, fc_B2/_45, fc_B3/_47, fc_W1/_49, fc_W2/_51, fc_W3/_53)]]
+
+Caused by op 'save/SaveV2', defined at:
+  File "main.py", line 44, in <module>
+    train.train(**d_params)
+  File "/afs/crc.nd.edu/user/p/pmoreira/Private/pads_ensembled_test_v3/src/train.py", line 346, in train
+    saver = tf.train.Saver([conv_W1,conv_B1,conv_W2,conv_B2,conv_W3,conv_B3,conv_W4,conv_B4,conv_W5,conv_B5,fc_W1,fc_B1,fc_W2,fc_B2,fc_W3,fc_B3]) #tf.global_variables ())
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 792, in _build_internal
+    save_tensor = self._AddSaveOps(filename_tensor, saveables)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 284, in _AddSaveOps
+    save = self.save_op(filename_tensor, saveables)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 202, in save_op
+    tensors)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py", line 1690, in save_v2
+    shape_and_slices=shape_and_slices, tensors=tensors, name=name)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.12/gpu/python3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+UnknownError (see above for traceback): /scratch365/pmoreira/pads_ensembled_test_v3/output_2/model_checkpoint/msh_tanzania_bal-2-50_20/model_msh_tanzania_bal-2-50_20.ckpt.data-00000-of-00001.tempstate7553868647286583022; Input/output error
+	 [[node save/SaveV2 (defined at /afs/crc.nd.edu/user/p/pmoreira/Private/pads_ensembled_test_v3/src/train.py:346)  = SaveV2[dtypes=[DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, conv_B1/_23, conv_B2/_25, conv_B3/_27, conv_B4/_29, conv_B5/_31, conv_W1/_33, conv_W2/_35, conv_W3/_37, conv_W4/_39, conv_W5/_41, fc_B1/_43, fc_B2/_45, fc_B3/_47, fc_W1/_49, fc_W2/_51, fc_W3/_53)]]
+
